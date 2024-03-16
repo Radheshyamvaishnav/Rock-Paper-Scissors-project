@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
-    <script src="functions.js" defer></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="text/javascript" src="functions.js" defer></script>
 
     <title>Rock Paper Scissors Game</title>
-</head>
-<body>
-        <div id="score-board">
-            
-            <div id="headings-block">
-                <div class="score-board-heading">ROCK</div>
-                <div class="score-board-heading">PAPER</div>
-                <div class="score-board-heading">SCISSORS</div>
+  </head>
+  
+  <body>
+    <div id="score-board">
+      
+      <div id="headings-block">
+        <div class="score-board-heading">ROCK</div>
+        <div class="score-board-heading">PAPER</div>
+        <div class="score-board-heading">SCISSORS</div>
+      </div>
 
+      <div class="score-block" id="computer-score-block">
+        <div class="score-label">COMPUTER SCORE</div>
+        <div class="score">0</div>
+      </div>
+
+      <div class="score-block" id="your-score-block">
+        <div class="score-label">YOUR SCORE</div>
+        <div class="score">0</div>
+      </div>
+    </div>
+    
+    <div id="playing-area">
+        <div id="frame1">
+            <div >
+                <img id="line1" src="images/Line 1.png">
+                <img id="line2" src="images/Line 2.png">
+                <img id="line3" src="images/Line 3.png">
             </div>
-            
-            <div class='score-block' id="computer-score-block">
-                <div class="score-label">COMPUTER SCORE</div>
-                <div  class="score">0</div>
+            <div id="stone-block">
+                <img class="bg-image" src="images/stone-blue.png" alt="">
+                <img class="main-image" src="images/stone.png" alt="">
             </div>
-            
-            <div class='score-block' id="your-score-block">
-                <div class="score-label">YOUR SCORE</div>
-                <div  class="score">0</div>
+            <div id="scissor-block">
+                <img class="bg-image" src="images/scissor-pink.png" alt="">
+                <img class="main-image" src="images/scissor.png" alt="">
+            </div>
+            <div id="papper-block">
+                <img class="bg-image" src="images/paper-orange.png" alt="">
+                <img class="main-image" src="images/paper.png" alt="">
             </div>
 
-        </div> 
-        <div id="playing-area"></div>
-        <div id="game-rules"></div>
-</body>
+
+        </div>
+    
+        <div id="frame2"></div>
+
+    </div>
+    
+
+
+    
+    <div id="game-rules"></div>
+  </body>
 </html>

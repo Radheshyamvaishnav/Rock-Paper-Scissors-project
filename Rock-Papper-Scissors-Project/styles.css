@@ -1,58 +1,122 @@
-body{
-    background-color: #89C15E;
+body {
+  background-color: #89c15e;
 }
 
-#score-board{
-    margin-top: 5%;
-    margin-left: 30%;
-    display: flex;
-    align-items: center;
-    border-style: solid;
-    border-radius: 8px;
-    padding: 10px;
-    border-color: white;
-    width:550px;
-    
-    
+#score-board {
+  margin-top: 5rem;
+  margin-left: 20rem;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 10px;
+  border-color: white;
+  width: 34rem;
 }
 
-#headings-block{
-    font-family: 'Roboto';
-    font-size: 30px;
-    color:white
+#headings-block {
+  font-family: "Roboto";
+  font-size: 30px;
+  color: white;
 }
 
-.score-block{
-    align-items: center;
-    height:6em;
-    width:7em;
-    padding:0.5em;
-    color:  #656565;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    
+.score-block {
+  align-items: center;
+  height: 6em;
+  width: 7em;
+  padding: 0.5em;
+  color: #656565;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
-.score-label{
-    text-align: center;
-    font-family: 'Roboto';
-    text-decoration: solid;
-    font-weight: bolder;
-
+.score-label {
+  text-align: center;
+  font-family: "Roboto";
+  text-decoration: solid;
+  font-weight: bolder;
 }
-.score{
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Roboto';
-    color: black;
-    font-weight: bolder;
-
-
+.score {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Roboto";
+  color: black;
+  font-weight: bolder;
 }
 
-#computer-score-block{
-    margin-left: 10rem;
+#computer-score-block {
+  margin-left: 10rem;
 }
-#your-score-block{
-    margin-left: 2rem;
+
+#your-score-block {
+  margin-left: 2rem;
 }
+
+#frame1 {
+  position: absolute;
+}
+
+.bg-image {
+  position: absolute;
+  height: 100px;
+}
+
+.main-image {
+  position: absolute;
+  height: 40px;
+}
+
+#scissor-block .main-image {
+  margin-left: 2.5em;
+  margin-top: 1.6em;
+}
+
+#papper-block .main-image {
+  margin-left: 2em;
+  margin-top: 1.8em;
+}
+
+#stone-block .main-image {
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+}
+
+#stone-block {
+  margin-top: 50px;
+  margin-left: 450px;
+}
+
+#scissor-block {
+  margin-top: 50px;
+  margin-left: 650px;
+}
+
+#papper-block {
+  margin-top: 180px;
+  margin-left: 555px;
+}
+
+#line1,
+#line2,
+#line3 {
+  position: absolute;
+  z-index: -1;
+}
+
+#line1 {
+  left: 82%;
+  top: 50%;
+  
+}
+
+#line2 {
+    left: 98%;
+    top: 70%;
+  }
+
+#line3 {
+  left: 79%;
+  top: 72%;
+}
+
+
