@@ -13,10 +13,9 @@
 
     <title>Rock Paper Scissors Game</title>
   </head>
-  
+
   <body>
     <div id="score-board">
-      
       <div id="headings-block">
         <div class="score-board-heading">ROCK</div>
         <div class="score-board-heading">PAPER</div>
@@ -33,37 +32,49 @@
         <div class="score">0</div>
       </div>
     </div>
-    
+
     <div id="playing-area">
-        <div id="frame1">
-            <div >
-                <img id="line1" src="images/Line 1.png">
-                <img id="line2" src="images/Line 2.png">
-                <img id="line3" src="images/Line 3.png">
-            </div>
-            <div id="stone-block">
-                <img class="bg-image" src="images/stone-blue.png" alt="">
-                <img class="main-image" src="images/stone.png" alt="">
-            </div>
-            <div id="scissor-block">
-                <img class="bg-image" src="images/scissor-pink.png" alt="">
-                <img class="main-image" src="images/scissor.png" alt="">
-            </div>
-            <div id="papper-block">
-                <img class="bg-image" src="images/paper-orange.png" alt="">
-                <img class="main-image" src="images/paper.png" alt="">
-            </div>
-
-
+      <div id="frame1">
+        <div>
+          <img id="line1" src="images/Line 1.png" />
+          <img id="line2" src="images/Line 2.png" />
+          <img id="line3" src="images/Line 3.png" />
         </div>
-    
-        <div id="frame2"></div>
+        <div id="stone-block">
+          <img class="bg-image" src="images/stone-blue.png" alt="" />
+          <img class="main-image" src="images/stone.png" alt="" />
+        </div>
+        <div id="scissor-block">
+          <img class="bg-image" src="images/scissor-pink.png" alt="" />
+          <img class="main-image" src="images/scissor.png" alt="" />
+        </div>
+        <div id="papper-block">
+          <img class="bg-image" src="images/paper-orange.png" alt="" />
+          <img class="main-image" src="images/paper.png" alt="" />
+        </div>
+      </div>
 
+      <div id="frame2"></div>
     </div>
-    
 
 
+    <div id="game-rules">
+        <div id="guidelines-box">
+            <div id="game-rule-text">&nbsp;&nbsp;Game Rules</div>
+            <div id="close-block">
+                <img class="close-img" src="images/X.png">
+            </div>
+            <ul id="list-box">
+                
+                <li>🟨 Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>🟨 Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                <li>🟨 Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                <li>🟨 If both players lay down the same hand, each player lays down another hand</li>
     
-    <div id="game-rules"></div>
+            </ul>
+        </div>
+        <button class="button">R U L E S</button>
+        <button class="button">N E X T</button>
+    </div>
   </body>
 </html>

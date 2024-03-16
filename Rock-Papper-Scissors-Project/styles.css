@@ -92,7 +92,7 @@ body {
 }
 
 #papper-block {
-  margin-top: 180px;
+  margin-top: 185px;
   margin-left: 555px;
 }
 
@@ -120,3 +120,68 @@ body {
 }
 
 
+.button{
+    font-family: 'Roboto';
+    font-size: large;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 0.5em;
+    color: white;
+    background-color: #89c15e;
+    border-color: white;
+    height: 3em;
+    width: 8em;
+    margin-top: 2em;
+    margin-left: 1em;
+
+}
+
+#game-rules{
+    margin-top: 5rem;
+    margin-left: 55rem;
+}
+
+#list-box{
+    list-style-type: none;
+    padding:2em;
+}
+
+#game-rule-text{
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#guidelines-box{
+    background-color: #004429;
+    font-family: 'Roboto';
+    border-style: solid;
+    border-radius: 2em;
+    border-width: thick;
+    color: white;
+    height:22em;
+    width:18em;
+    padding: 1em;
+
+
+}
+
+li{
+    padding: 0.2em;
+}
+
+#close-block{
+    margin-top: -6em;
+    margin-left:17.5em;
+    border-style: solid;
+    border-color: white;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    width:2em;
+    height:2em;
+    border-radius: 10em;
+    padding: 1em;
+
+}
