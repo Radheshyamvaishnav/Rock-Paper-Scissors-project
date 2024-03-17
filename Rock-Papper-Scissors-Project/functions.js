@@ -6,7 +6,7 @@ const paper = 'paper'
 const scissor = 'scissor'
 const frame1 = document.getElementById('frame1')
 const frame2 = document.getElementById('frame2')
-// const frame3 = document.getElementById('frame3')
+const frame3 = document.getElementById('frame3')
 const score_board = document.getElementById('score-board')
 const frame2_user_frame = document.getElementById("user-frame")
 const frame2_pc_frame = document.getElementById("pc-frame")
@@ -18,6 +18,9 @@ const user_score_text = document.getElementById('user-score')
 const pc_score_text = document.getElementById('pc-score')
 const next_btn = document.getElementById('next-button')
 const guidelines_box = document.getElementById('guidelines-box')
+const frame1_stone_frame = document.getElementById("stone-frame")
+const frame1_scissor_frame = document.getElementById("scissor-frame")
+const frame1_papper_frame = document.getElementById("papper-frame")
 
 
 function display_guidelines(){
@@ -71,7 +74,7 @@ function display_papper(id_name){
 }
 
 function play_again_btn_func(){
-    // frame3.style.visibility = 'hidden'
+    frame3.style.visibility = 'hidden'
     frame2.style.visibility = 'hidden'
     frame1.style.visibility = 'visible'
     score_board.style.visibility = 'visible'
@@ -133,20 +136,18 @@ function main(user_picked){
     
 }
 
-// score_board.style.visibility = 'hidden'
-// frame1.style.visibility = 'hidden'
 
+
+
+// By Default Display Frame1
+frame3.style.visibility = 'hidden'
 frame2.style.visibility = 'hidden'
 next_btn.style.visibility = 'hidden'
 
-// By Default Display Frame1
 display_stone("stone-frame")
 display_papper("papper-frame")
 display_scissor("scissor-frame")
 
-const frame1_stone_frame = document.getElementById("stone-frame")
-const frame1_scissor_frame = document.getElementById("scissor-frame")
-const frame1_papper_frame = document.getElementById("papper-frame")
 
 // ADD event listeners to block  for users to select
 frame1_stone_frame.addEventListener('click', () => { main(stone) })

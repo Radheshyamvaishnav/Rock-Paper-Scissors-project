@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
 body {
   background-color: #89c15e;
 }
+
 
 #score-board {
   margin-top: 2rem;
@@ -140,7 +144,7 @@ body {
 
 #game-rules {
   margin-top: 5rem;
-  margin-left: 55rem;
+  margin-left: 58rem;
 }
 
 #list-box {
@@ -165,7 +169,7 @@ body {
   height: 22em;
   width: 18em;
   padding: 1em;
-  margin-top: -20rem;
+  margin-top: -32rem;
 }
 
 li {
@@ -245,8 +249,25 @@ li {
 }
 
 
-#frame3 img{
-    margin-left: 1px;
+#frame3{
+    font-family: 'Roboto';
+    margin-top: -25rem;
+    text-align: center;
+    color: white;
 }
 
-  
+#cup-img{
+    margin-top: -14rem;
+}
+
+#hurray-msg{
+    font-size: 5rem;
+    font-weight: bolder;
+    padding: 0.2em;
+
+}
+#you-msg{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 0.2em;
+}
