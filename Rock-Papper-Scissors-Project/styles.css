@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 body {
   background-color: #89c15e;
 }
-
 
 #score-board {
   margin-top: 2rem;
@@ -12,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   border-style: solid;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 10px;
   border-color: white;
   width: 34rem;
@@ -21,6 +19,7 @@ body {
 #headings-block {
   font-family: "Roboto";
   font-size: 30px;
+  font-weight: 5em;
   color: white;
 }
 
@@ -56,9 +55,8 @@ body {
   margin-left: 2rem;
 }
 
-
-#playing-area{
-    margin-top: -7rem;
+#playing-area {
+  margin-top: -7rem;
 }
 
 #frame1 {
@@ -90,7 +88,7 @@ body {
   margin-top: 1.5em;
 }
 
-#stone-frame {  
+#stone-frame {
   margin-top: 50px;
   margin-left: 450px;
 }
@@ -136,8 +134,8 @@ body {
   color: white;
   background-color: #89c15e;
   border-color: white;
-  height: 3em;
-  width: 8em;
+  height: 2em;
+  width: 7em;
   margin-top: 2em;
   margin-left: 1em;
 }
@@ -196,7 +194,6 @@ li {
   margin-left: 22rem;
   margin-top: 8rem;
   color: white;
-  resize: both;
 }
 
 .button2 {
@@ -204,7 +201,7 @@ li {
   border-color: white;
   border-radius: 0.7em;
   color: grey;
-  width: 8em;
+  width: 8.4em;
   height: 3em;
   font-size: small;
   font-weight: bold;
@@ -248,26 +245,36 @@ li {
   font-weight: bolder;
 }
 
-
-#frame3{
-    font-family: 'Roboto';
-    margin-top: -25rem;
-    text-align: center;
-    color: white;
+#frame3 {
+  font-family: "Roboto";
+  margin-top: -25rem;
+  text-align: center;
+  color: white;
 }
 
-#cup-img{
-    margin-top: -14rem;
+#cup-img {
+  margin-top: -14rem;
 }
 
-#hurray-msg{
-    font-size: 5rem;
-    font-weight: bolder;
-    padding: 0.2em;
+#hurray-msg {
+  font-size: 5rem;
+  font-weight: bolder;
+  padding: 0.2em;
+}
+#you-msg {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 0.2em;
+}
 
+.green_effect{
+  z-index: -1;
+  box-shadow:
+  0 0 0 10px #1da82b inset, 
+  0 0 0 10px #1da82b,
+  0 0 0 25px #1da82b90, 
+  0 0 0 40px #2E9A2563;
+  border-radius: 50%;
+  border: none;
 }
-#you-msg{
-    font-size: 3rem;
-    font-weight: bolder;
-    padding-bottom: 0.2em;
-}
+
