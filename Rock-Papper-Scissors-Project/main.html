@@ -24,12 +24,12 @@
 
       <div class="score-block" id="computer-score-block">
         <div class="score-label">COMPUTER SCORE</div>
-        <div class="score">0</div>
+        <div id='pc-score' class="score">0</div>
       </div>
 
       <div class="score-block" id="your-score-block">
         <div class="score-label">YOUR SCORE</div>
-        <div class="score">0</div>
+        <div id='user-score' class="score">0</div>
       </div>
     </div>
 
@@ -40,22 +40,39 @@
           <img id="line2" src="images/Line 2.png" />
           <img id="line3" src="images/Line 3.png" />
         </div>
-        <div id="stone-block">
-          <img class="bg-image" src="images/stone-blue.png" alt="" />
-          <img class="main-image" src="images/stone.png" alt="" />
+        <div id="stone-frame"></div>
+        <div id="scissor-frame"></div>
+        <div id="papper-frame"></div>
+      </div>
+
+
+      <div id="frame2">
+        <div id="you-picked-block">
+            <h5>YOU PICKED</h5>
+            <div id="user-frame"></div>
         </div>
-        <div id="scissor-block">
-          <img class="bg-image" src="images/scissor-pink.png" alt="" />
-          <img class="main-image" src="images/scissor.png" alt="" />
+        <div id="status">
+            <div id="status-message">Status</div>
+            <div id="against-pc-msg">AGAINST PC</div>
+            <button id='play-again-button' class="button2">PLAY AGAIN</button>
         </div>
-        <div id="papper-block">
-          <img class="bg-image" src="images/paper-orange.png" alt="" />
-          <img class="main-image" src="images/paper.png" alt="" />
+        <div id="pc-picked-block">
+            <h5>PC PICKED</h5>
+            <div id="pc-frame"></div>
         </div>
       </div>
 
-      <div id="frame2"></div>
+    <!-- <div id="frame3">
+        <div id="stars-img"><img src="images/stars.png"></div>
+        <div id="cup-img"><img src="images/cup.png"></div>       
+        <div id="hurray-msg">H U R R A Y !!</div>
+        <div id="you-msg">YOU WON THE GAME</div>
+        <button id='win-play-again-btn' class="button2">PLAY AGAIN</button>
+    </div> -->
+
     </div>
+
+
 
 
     <div id="game-rules">
@@ -73,8 +90,8 @@
     
             </ul>
         </div>
-        <button class="button">R U L E S</button>
-        <button class="button">N E X T</button>
+        <button id='rules-button' class="button">R U L E S</button>
+        <button id='next-button' class="button">N E X T</button>
     </div>
   </body>
 </html>
